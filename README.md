@@ -1,4 +1,4 @@
-# 5-day-forecast
+#### 5-day-forecast
 
-### A single page application to forecast 5 days weather information. 
-### Created in React and Redux. 
+Forecast application created in React and Redux. 
+For weather api, used OpenWeatherMap
