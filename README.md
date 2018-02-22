@@ -1,5 +1,5 @@
 #### 5-day-forecast
 
-Forecast application created in React and Redux. 
+Weather forecast created in React and Redux. 
 
-For weather api, used OpenWeatherMap
+For weather api, OpenWeatherMap api was used.
