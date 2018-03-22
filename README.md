@@ -1,5 +1,5 @@
-#### 5-day-forecast
+#### Weather Information
 
-Weather forecast created in React and Redux. 
-
-For weather api, OpenWeatherMap api was used.
+User can find out the weather information depending on the city name. 
+Created reusable components in React and Redux. 
+Utilized OpenWeatherMap API to fetch the data.
