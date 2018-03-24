@@ -1,12 +1,10 @@
-# Weather Information
----
+# Weather Information  
 
 Weather-Information is a front end web application inspired by weather.com widget.
 It uses OpenWeatherMap API to fetch the weather data based on the search query.
 Code is written in React and Redux. Compiled using Webpack and Babel.
 
-### Action Creator
----
+### Action Creator  
 
 In action creator, I am doing an AJAX call to fetch the weather data based on the city name.
 
@@ -23,7 +21,6 @@ export function fetchWeather(cityName) {
 ```
 
 ### Reducer
----
 
 Reducers plays a major role and returns the state. It is important to highlight that in reducer, code is not mutating the state. It returns a new state. 
 
@@ -39,9 +36,8 @@ export default function(state = [], action) {
 ```
 
 ### Container
----
 
-Containers are smart component that connects `React` and `Redux`.
+Containers are smart component that connects `React` and `Redux`.  
 `connect` is the function the glues React and Redux together. 
 
 ```javascript
