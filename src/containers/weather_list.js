@@ -32,8 +32,8 @@ class WeatherList extends Component {
 
 	render() {
 		return(
-				<table className = "table table-hover">
-					<thead>
+				<table className = "table">
+					<thead className = "table-success">
 						<tr>
 							<th>City</th>
 							<th>Temperature (K)</th>
@@ -41,7 +41,7 @@ class WeatherList extends Component {
 							<th>Humidity (%)</th>
 						</tr>
 					</thead>
-					<tbody>
+					<tbody className = "common-background">
 						{ this.props.weather.map(this.renderWeather) }
 					</tbody>
 				</table>
