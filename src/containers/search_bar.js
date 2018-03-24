@@ -27,7 +27,7 @@ class SearchBar extends Component {
 	render() {
 		return(
 				<div>
-					<h2 className = "text-center">Know the weather information</h2>
+					<h2 className = "common-color text-center">Weather Information</h2>
 					<form onSubmit = { this.onFormSubmit } className = "input-group">
 						<input 
 							placeholder = "Get a five-day forecast in your favorite cities" 
