@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "See the weather information for the cities",
   "main": "index.js",
-  "homepage": "https://jackysatpal.github.io/weather-information",
+  "homepage": "https://sjacky.com/weather-information",
   "repository": "git@github.com:jackysatpal/weather-information.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
@@ -11,13 +11,14 @@
     "build": "webpack -p",
     "deploy": "gh-pages -d build"
   },
-  "author": "",
+  "author": "Jacky Satpal",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
     "babel-preset-env": "*",
     "babel-preset-react": "*",
+    "gh-pages": "^1.1.0",
     "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^1.15.0",
     "webpack-dev-server": "^1.14.0"
