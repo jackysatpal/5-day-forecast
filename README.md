@@ -1,7 +1,9 @@
 # Weather Information  
 
-Weather-Information is a front end web application inspired by weather.com widget.
-It uses OpenWeatherMap API to fetch the weather data based on the search query.
+See it [Live](https://sjacky.com/weather-information)
+
+Weather-Information is a front end web application inspired by weather.com widget.  
+It uses OpenWeatherMap API to fetch the weather data based on the search query.  
 Code is written in React and Redux. Compiled using Webpack and Babel.
 
 ### Action Creator  
