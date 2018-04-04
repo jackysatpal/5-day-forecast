@@ -4,7 +4,7 @@
   "description": "See the weather information for the cities",
   "main": "index.js",
   "homepage": "https://jackysatpal.github.io/weather-information",
-  "repository": "git@github.com:JackySatpal/weather-information.git",
+  "repository": "git@github.com:jackysatpal/weather-information.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "predeploy": "npm run build",
