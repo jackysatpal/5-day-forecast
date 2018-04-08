@@ -1,6 +1,6 @@
 # Weather Information  
 
-See it [Live](www.sjacky.com/weather-information) in action.
+See it [Live](http://www.sjacky.com/weather-information/) in action.
 
 Weather-Information is a front end web application inspired by weather.com widget.  
 It uses OpenWeatherMap API to fetch the weather data based on the search query.  
